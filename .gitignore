@@ -1,0 +1,38 @@
+# Virtual environment (HUGE - don't upload)
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoint files
+.ipynb_checkpoints/
+
+# Model files (too large for GitHub)
+*.hdf5
+*.h5
+*.pb
+*.pth
+*.ckpt
+
+# Binary files
+*.pyd
+*.dll
+*.so
+*.dylib
+
+# Dataset (usually very large)
+video_tampering_dataset/
+data/
+*.mp4
+*.avi
+*.mov
+
+# Screenshots
+Screenshots/
+*.png
+*.jpg
+*.jpeg
