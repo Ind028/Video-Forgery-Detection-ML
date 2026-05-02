@@ -1,21 +1,21 @@
-# 🎥 Video Forgery Detection using ResNet50
+# Video Forgery Detection using ResNet50
 
 A deep learning system for detecting **copy-move forgeries in digital videos** using a **ResNet50 architecture implemented from scratch**.
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project focuses on identifying **tampered video frames** where regions are copied and pasted within the same frame (copy-move forgery). The system processes videos frame-by-frame and performs **binary classification** to determine whether a frame is:
 
-- ✅ Authentic  
-- ❌ Forged  
+- Authentic  
+- Forged  
 
 The model is trained on the **REWIND video copy-move forgery dataset**, making it robust for real-world tampering scenarios.
 
 ---
 
-## 🚀 Key Results
+## Key Results
 
 | Metric              | Score |
 |--------------------|------|
@@ -31,7 +31,7 @@ The model is trained on the **REWIND video copy-move forgery dataset**, making i
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **Dataset Used:** REWIND (Video Copy-Move Forgery Dataset)
 - Contains:
@@ -45,19 +45,19 @@ The model is trained on the **REWIND video copy-move forgery dataset**, making i
 
 ---
 
-## ⚙️ Features
+## Features
 
-- 🔍 Detects **copy-move forgeries in videos**
-- 🧱 ResNet50 implemented **from scratch**
-- 🎯 Frame-level binary classification
-- 📊 Evaluation using **Precision, Recall, F1, ROC-AUC**
-- ⚡ Dropout for regularization
+- Detects **copy-move forgeries in videos**
+- ResNet50 implemented **from scratch**
+- Frame-level binary classification
+- Evaluation using **Precision, Recall, F1, ROC-AUC**
+- Dropout for regularization
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- Python 🐍
+- Python 
 - TensorFlow / PyTorch
 - NumPy
 - OpenCV
@@ -65,7 +65,7 @@ The model is trained on the **REWIND video copy-move forgery dataset**, making i
 
 ---
 
-## 📈 Training Details
+## Training Details
 
 - Input Size: **224 × 224 × 3**
 - Loss Function: **Binary Crossentropy**
@@ -77,7 +77,7 @@ The model is trained on the **REWIND video copy-move forgery dataset**, making i
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 - Accuracy  
 - Precision & Recall  
@@ -86,17 +86,17 @@ The model is trained on the **REWIND video copy-move forgery dataset**, making i
 
 ---
 
-## 🧪 How It Works
+## How It Works
 
-1. 🎞️ Extract frames from input video  
-2. 🖼️ Preprocess frames (resize + normalize)  
-3. 🧠 Pass frames through ResNet50  
-4. 📊 Predict probability of forgery  
-5. ✅ Classify as **Forged** or **Authentic**
+1. Extract frames from input video  
+2. Preprocess frames (resize + normalize)  
+3. Pass frames through ResNet50  
+4. Predict probability of forgery  
+5. Classify as **Forged** or **Authentic**
 
 ---
 
-## ▶️ Usage
+## Usage
 
 ```bash
 # Clone the repository
