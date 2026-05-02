@@ -100,7 +100,7 @@ The model is trained on the **REWIND video copy-move forgery dataset**, making i
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/video-forgery-detection.git
+git clone https://github.com/Ind028/video-forgery-detection.git
 
 # Navigate to project directory
 cd video-forgery-detection
